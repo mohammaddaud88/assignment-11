@@ -1,0 +1,64 @@
+{
+    "userProfile": {
+      "id": 1,
+      "name": "Mohammad Daud",
+      "email": "daudansari@gmail.com",
+      "age": 21,
+      "city": "Khalilabad",
+      "hobbies": ["reading", "playing cricket", "coding"]
+    },
+    "product": {
+      "productId": 101,
+      "productName": "Wireless Headphones",
+      "brand": "SoundMagic",
+      "price": 99.99,
+      "inStock": true,
+      "categories": ["Electronics", "Audio"]
+    },
+    "book": {
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "publishedYear": 1925,
+      "genres": ["Classic", "Fiction"],
+      "ratings": {
+        "average": 4.2,
+        "reviews": 5234
+      }
+    },
+    "order": {
+      "orderId": 56789,
+      "orderDate": "2024-11-27",
+      "customer": {
+        "customerId": 456,
+        "name": "John Doe",
+        "email": "john.doe@example.com"
+      },
+      "items": [
+        {
+          "productId": 101,
+          "quantity": 2,
+          "price": 99.99
+        },
+        {
+          "productId": 202,
+          "quantity": 1,
+          "price": 49.99
+        }
+      ],
+      "totalAmount": 249.97
+    },
+    "weather": {
+      "city": "Tokyo",
+      "date": "2024-11-27",
+      "temperature": {
+        "morning": 18,
+        "afternoon": 22,
+        "evening": 20,
+        "night": 16
+      },
+      "conditions": "Partly Cloudy",
+      "humidity": 60,
+      "windSpeed": 14
+    }
+  }
+  
